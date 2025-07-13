@@ -1,0 +1,189 @@
+# Clash Configuration for ProxyMama50 Servers with Unique Dummy Proxies & Load Balancing
+# Version: 1.0 | Last Updated: 14-Jul-2025
+
+# General Settings
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: '0.0.0.0:9090'
+secret: ''
+
+# Proxies
+proxies:
+# --- Dummy Nodes [Section 1] ---
+# - name: "Spectre-Node-01"
+#   type: socks5
+#   server: 202.5.112.81
+#   port: 8080
+# - name: "Orion-Gateway-A5"
+#   type: http
+#   server: 103.14.201.33
+#   port: 80
+# - name: "Vortex-Relay-EU-9"
+#   type: socks5
+#   server: 8.8.8.8
+#   port: 1080
+# - name: "Helios-Stream-BD-2"
+#   type: socks5
+#   server: 192.168.1.1
+#   port: 4145
+# - name: "Phoenix-Core-SG-7"
+#   type: http
+#   server: 118.179.135.251
+#   port: 3128
+# --- End of Section ---
+
+  - name: "ProxyMama50 Server-1"
+    type: http
+    server: 202.40.178.165
+    port: 12761
+  - name: "ProxyMama50 Server-2"
+    type: socks5
+    server: 103.186.238.1
+    port: 9169
+    username: "true"
+    password: "true"
+
+# --- Dummy Nodes [Section 2] ---
+# - name: "Spectre-Node-02"
+#   type: http
+#   server: 91.207.175.88
+#   port: 80
+# - name: "Orion-Gateway-B8"
+#   type: socks5
+#   server: 45.118.187.18
+#   port: 1080
+# - name: "Vortex-Relay-US-4"
+#   type: http
+#   server: 113.53.18.250
+#   port: 8080
+# - name: "Helios-Stream-IN-3"
+#   type: socks5
+#   server: 103.15.132.170
+#   port: 1080
+# - name: "Phoenix-Core-JP-1"
+#   type: http
+#   server: 202.162.215.90
+#   port: 3128
+# --- End of Section ---
+
+  - name: "ProxyMama50 Server-3"
+    type: socks5
+    server: 103.143.139.173
+    port: 6969
+    username: '@bdiix_bypass'
+    password: '@bdiix_bypass'
+  - name: "ProxyMama50 Server-4"
+    type: socks5
+    server: 203.76.220.168
+    port: 1052
+    username: "exrex"
+    password: "exrex"
+
+# --- Dummy Nodes [Section 3] ---
+# - name: "Project-Cerberus-X1"
+#   type: socks5
+#   server: 221.120.155.195
+#   port: 1080
+# - name: "Project-Hydra-Y4"
+#   type: http
+#   server: 103.95.4.253
+#   port: 8080
+# - name: "Project-Chimera-Z9"
+#   type: http
+#   server: 119.30.36.198
+#   port: 8080
+# - name: "Node-Titan-Alpha"
+#   type: socks5
+#   server: 103.85.120.250
+#   port: 1080
+# - name: "Node-Wyvern-Beta"
+#   type: http
+#   server: 124.219.160.106
+#   port: 8080
+# --- End of Section ---
+
+  - name: "ProxyMama50 Server-5"
+    type: http
+    server: 45.115.112.138
+    port: 7675
+  - name: "ProxyMama50 Server-6"
+    type: socks5
+    server: 5.bdixbypass.com
+    port: 6969
+    username: "@BDiX_BypassX"
+    password: "@BDiX_BypassX"
+    udp: true
+  - name: "ProxyMama50 Server-7"
+    type: socks5
+    server: 220.247.165.129
+    port: 1088
+    username: test
+    password: test
+
+# --- Dummy Nodes [Section 4] ---
+# - name: "Pathfinder-0A"
+#   type: socks5
+#   server: 27.123.255.250
+#   port: 1080
+# - name: "Pathfinder-1B"
+#   type: http
+#   server: 103.149.208.18
+#   port: 8080
+# - name: "Pathfinder-2C"
+#   type: socks5
+#   server: 103.153.2.146
+#   port: 1080
+# - name: "Pathfinder-3D"
+#   type: http
+#   server: 202.83.127.18
+#   port: 8080
+# - name: "Quantum-Leap-01"
+#   type: socks5
+#   server: 116.197.128.50
+#   port: 1080
+# - name: "Nova-Burst-X"
+#   type: http
+#   server: 182.253.159.130
+#   port: 8080
+# --- End of Section ---
+
+# Proxy Groups
+proxy-groups:
+  - name: "ProxyMama50-Selector"
+    type: select
+    proxies:
+      - "ProxyMama50-Load-Balance"
+      - "ProxyMama50 Server-1"
+      - "ProxyMama50 Server-2"
+      - "ProxyMama50 Server-3"
+      - "ProxyMama50 Server-4"
+      - "ProxyMama50 Server-5"
+      - "ProxyMama50 Server-6"
+      - "ProxyMama50 Server-7"
+      - DIRECT
+
+  - name: "ProxyMama50-Load-Balance"
+    type: load-balance
+    strategy: consistent-hashing
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    proxies:
+      - "ProxyMama50 Server-1"
+      - "ProxyMama50 Server-2"
+      - "ProxyMama50 Server-3"
+      - "ProxyMama50 Server-4"
+      - "ProxyMama50 Server-5"
+      - "ProxyMama50 Server-6"
+      - "ProxyMama50 Server-7"
+
+# Rules
+rules:
+  - DOMAIN-SUFFIX,google.com,ProxyMama50-Selector
+  - DOMAIN-SUFFIX,github.com,ProxyMama50-Selector
+  - DOMAIN-KEYWORD,bdixtv,DIRECT
+  - DOMAIN-KEYWORD,bdix,DIRECT
+  - GEOIP,BD,DIRECT
+  - MATCH,ProxyMama50-Selector
