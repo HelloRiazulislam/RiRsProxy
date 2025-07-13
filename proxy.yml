@@ -1,5 +1,4 @@
 # ProxyMama Server Configurations
-# Last updated: July 14, 2025
 
 proxies:
   - name: "ProxyMama Server-1"
@@ -51,12 +50,12 @@ proxies:
     username: test
     password: test
     udp: true
-  - name: "ProxyMama Server-8"
+  - name: "ProxyMama Server-8 (100Mbps)"
     type: socks5
-    server: 103.4.65.237
-    port: 1088
-    username: test
-    password: test
+    server: circle.bypassempire.com
+    port: 6969
+    username: @bdiix_bypass
+    password: @bdiix_bypass
     udp: true
   - name: "ProxyMama Server-9"
     type: socks5
@@ -65,21 +64,21 @@ proxies:
     username: test
     password: test
     udp: true
-  - name: "ProxyMama Server-10"
+  - name: "ProxyMama Server-10 (100Mbps)"
     type: socks5
-    server: 203.202.252.61
-    port: 1088
-    username: test
-    password: test
+    server: 5.bdixbypass.com
+    port: 6969
+    username: @BDiX_BypassX
+    password: @BDiX_BypassX
     udp: true
-  - name: "ProxyMama Server-11"
+  - name: "ProxyMama Server-11 (100Mbps)"
     type: socks5
     server: 220.247.165.129
     port: 1088
     username: test
     password: test
     udp: true
-  - name: "ProxyMama Server-12"
+  - name: "ProxyMama Server-12 (100Mbps)"
     type: socks5
     server: 203.76.220.168
     port: 1052
