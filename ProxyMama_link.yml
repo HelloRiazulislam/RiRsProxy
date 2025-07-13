@@ -11,7 +11,9 @@ socks-port: 7891
 allow-lan: true
 mode: rule
 log-level: warning
-external-controller: 0.0.0.0:9090
+external-controller: '0.0.0.0:9090'
+
+# DNS Settings
 dns:
   enable: true
   listen: 0.0.0.0:53
@@ -118,7 +120,6 @@ proxy-groups:
     proxies:
       - "Load-Balance"
       - "Manual-Selection"
-
   - name: "Load-Balance"
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -136,7 +137,6 @@ proxy-groups:
       - "ProxyMama Server-10 (100Mbps)"
       - "ProxyMama Server-11 (100Mbps)"
       - "ProxyMama Server-12 (100Mbps)"
-
   - name: "Manual-Selection"
     type: select
     proxies:
