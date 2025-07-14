@@ -36,6 +36,29 @@ proxies:
     type: http
     server: 121.200.61.221
     port: 6565
+# - name: "Orion-Gateway-A5"
+#   type: http
+#   server: 103.14.201.33
+#   port: 80
+# - name: "Vortex-Relay-EU-9"
+#   type: socks5
+#   server: 8.8.8.8
+#   port: 1080
+# - name: "Helios-Stream-BD-2"
+#   type: socks5
+#   server: 192.168.1.1
+#   port: 4145# - name: "Orion-Gateway-A5"
+#   type: http
+#   server: 103.14.201.33
+#   port: 80
+# - name: "Vortex-Relay-EU-9"
+#   type: socks5
+#   server: 8.8.8.8
+#   port: 1080
+# - name: "Helios-Stream-BD-2"
+#   type: socks5
+#   server: 192.168.1.1
+#   port: 4145
   - name: "ProxyMama100 Server-2"
     type: socks5
     server: 103.186.238.1
@@ -86,12 +109,58 @@ proxies:
     type: http
     server: 121.200.63.205
     port: 8742
+# - name: "Orion-Gateway-A5"
+#   type: http
+#   server: 103.14.201.33
+#   port: 80
+# - name: "Vortex-Relay-EU-9"
+#   type: socks5
+#   server: 8.8.8.8
+#   port: 1080
+# - name: "Helios-Stream-BD-2"
+#   type: socks5
+#   server: 192.168.1.1
+#   port: 4145# - name: "Orion-Gateway-A5"
+#   type: http
+#   server: 103.14.201.33
+#   port: 80
+# - name: "Vortex-Relay-EU-9"
+#   type: socks5
+#   server: 8.8.8.8
+#   port: 1080
+# - name: "Helios-Stream-BD-2"
+#   type: socks5
+#   server: 192.168.1.1
+#   port: 4145
   - name: "ProxyMama100 Server-4"
     type: socks5
     server: 45.125.221.11
     port: 6969
     username: test
     password: test
+# - name: "Orion-Gateway-A5"
+#   type: http
+#   server: 103.14.201.33
+#   port: 80
+# - name: "Vortex-Relay-EU-9"
+#   type: socks5
+#   server: 8.8.8.8
+#   port: 1080
+# - name: "Helios-Stream-BD-2"
+#   type: socks5
+#   server: 192.168.1.1
+#   port: 4145# - name: "Orion-Gateway-A5"
+#   type: http
+#   server: 103.14.201.33
+#   port: 80
+# - name: "Vortex-Relay-EU-9"
+#   type: socks5
+#   server: 8.8.8.8
+#   port: 1080
+# - name: "Helios-Stream-BD-2"
+#   type: socks5
+#   server: 192.168.1.1
+#   port: 4145
   - name: "ProxyMama100 Server-5"
     type: http
     server: 103.18.204.141
@@ -144,12 +213,58 @@ proxies:
     port: 7878
     username: h2
     password: h2
+# - name: "Orion-Gateway-A5"
+#   type: http
+#   server: 103.14.201.33
+#   port: 80
+# - name: "Vortex-Relay-EU-9"
+#   type: socks5
+#   server: 8.8.8.8
+#   port: 1080
+# - name: "Helios-Stream-BD-2"
+#   type: socks5
+#   server: 192.168.1.1
+#   port: 4145# - name: "Orion-Gateway-A5"
+#   type: http
+#   server: 103.14.201.33
+#   port: 80
+# - name: "Vortex-Relay-EU-9"
+#   type: socks5
+#   server: 8.8.8.8
+#   port: 1080
+# - name: "Helios-Stream-BD-2"
+#   type: socks5
+#   server: 192.168.1.1
+#   port: 4145
   - name: "ProxyMama100 Server-7"
     type: socks5
     server: 203.76.220.168
     port: 1052
     username: "exrex"
     password: "exrex"
+# - name: "Orion-Gateway-A5"
+#   type: http
+#   server: 103.14.201.33
+#   port: 80
+# - name: "Vortex-Relay-EU-9"
+#   type: socks5
+#   server: 8.8.8.8
+#   port: 1080
+# - name: "Helios-Stream-BD-2"
+#   type: socks5
+#   server: 192.168.1.1
+#   port: 4145# - name: "Orion-Gateway-A5"
+#   type: http
+#   server: 103.14.201.33
+#   port: 80
+# - name: "Vortex-Relay-EU-9"
+#   type: socks5
+#   server: 8.8.8.8
+#   port: 1080
+# - name: "Helios-Stream-BD-2"
+#   type: socks5
+#   server: 192.168.1.1
+#   port: 4145
   - name: "ProxyMama100 Server-8"
     type: http
     server: 45.115.112.138
@@ -200,6 +315,29 @@ proxies:
     port: 6969
     username: "@BDiX_BypassX"
     password: "@BDiX_BypassX"
+# - name: "Orion-Gateway-A5"
+#   type: http
+#   server: 103.14.201.33
+#   port: 80
+# - name: "Vortex-Relay-EU-9"
+#   type: socks5
+#   server: 8.8.8.8
+#   port: 1080
+# - name: "Helios-Stream-BD-2"
+#   type: socks5
+#   server: 192.168.1.1
+#   port: 4145# - name: "Orion-Gateway-A5"
+#   type: http
+#   server: 103.14.201.33
+#   port: 80
+# - name: "Vortex-Relay-EU-9"
+#   type: socks5
+#   server: 8.8.8.8
+#   port: 1080
+# - name: "Helios-Stream-BD-2"
+#   type: socks5
+#   server: 192.168.1.1
+#   port: 4145
   - name: "ProxyMama100 Server-10"
     type: socks5
     server: 220.247.165.129
