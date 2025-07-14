@@ -12,7 +12,6 @@ secret: ''
 
 # Proxies
 proxies:
-# --- Dummy Nodes [Section 1] ---
 # - name: "Spectre-Node-01"
 #   type: socks5
 #   server: 202.5.112.81
@@ -33,8 +32,6 @@ proxies:
 #   type: http
 #   server: 118.179.135.251
 #   port: 3128
-# --- End of Section ---
-
   - name: "ProxyMama100 Server-1"
     type: http
     server: 121.200.61.221
@@ -45,8 +42,6 @@ proxies:
     port: 9169
     username: "true"
     password: "true"
-
-# --- Dummy Nodes [Section 2] ---
 # - name: "Spectre-Node-02"
 #   type: http
 #   server: 91.207.175.88
@@ -87,8 +82,6 @@ proxies:
 #   type: http
 #   server: 103.78.129.214
 #   port: 80
-# --- End of Section ---
-
   - name: "ProxyMama100 Server-3"
     type: http
     server: 121.200.63.205
@@ -105,8 +98,6 @@ proxies:
     port: 32706
     username: 2024-12-16z4lzhfB4
     password: bccbbbda
-
-# --- Dummy Nodes [Section 3] ---
 # - name: "Project-Cerberus-X1"
 #   type: socks5
 #   server: 221.120.155.195
@@ -147,8 +138,6 @@ proxies:
 #   type: http
 #   server: 103.250.144.195
 #   port: 8080
-# --- End of Section ---
-
   - name: "ProxyMama100 Server-6"
     type: socks5
     server: 103.150.255.120
@@ -165,8 +154,6 @@ proxies:
     type: http
     server: 45.115.112.138
     port: 7675
-
-# --- Dummy Nodes [Section 4] ---
 # - name: "Pathfinder-0A"
 #   type: socks5
 #   server: 27.123.255.250
@@ -207,8 +194,6 @@ proxies:
 #   type: http
 #   server: 103.204.16.14
 #   port: 8080
-# --- End of Section ---
-
   - name: "ProxyMama100 Server-9"
     type: socks5
     server: 5.bdixbypass.com
@@ -221,8 +206,6 @@ proxies:
     port: 1088
     username: test
     password: test
-
-# --- Dummy Nodes [Section 5] ---
 # - name: "Quantum-Leap-01"
 #   type: socks5
 #   server: 116.197.128.50
@@ -251,8 +234,6 @@ proxies:
 #   type: socks5
 #   server: 202.152.41.98
 #   port: 1080
-# --- End of Section ---
-
 # Proxy Groups
 proxy-groups:
   - name: "ProxyMama-Selector"
