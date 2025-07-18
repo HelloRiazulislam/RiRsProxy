@@ -1,36 +1,36 @@
 proxies:
-  - name: "ProxyMama100 Server-1"
+  - name: "ProxyMama100mbps Server-1"
     type: http
     server: 121.200.61.221
     port: 6565
 
-  - name: "ProxyMama100 Server-2"
+  - name: "ProxyMama100mbps Server-2"
     type: socks5
     server: 103.186.238.1
     port: 9169
     username: "true"
     password: "true"
 
-  - name: "ProxyMama100 Server-3"
+  - name: "ProxyMama100mbps Server-3"
     type: http
     server: 121.200.63.205
     port: 8742
 
-  - name: "ProxyMama100 Server-4"
+  - name: "ProxyMama100mbps Server-4"
     type: socks5
     server: 45.125.221.11
     port: 6969
     username: "test"
     password: "test"
 
-  - name: "ProxyMama100 Server-5"
+  - name: "ProxyMama100mbps Server-5"
     type: http
     server: 103.18.204.141
     port: 32706
     username: "2024-12-16z4lzhfB4"
     password: "bccbbbda"
 
-  - name: "ProxyMama100 Server-6"
+  - name: "ProxyMama100mbps Server-6"
     type: socks5
     server: 103.150.255.120
     port: 7878
