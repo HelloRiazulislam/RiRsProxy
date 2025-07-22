@@ -18,24 +18,24 @@ proxies:
 
   - name: "ProxyMama100mbps Server-4"
     type: socks5
-    server: 45.125.221.11
-    port: 6969
-    username: "test"
-    password: "test"
+    server: 103.91.129.209
+    port: 6699
+    username: "ECats"
+    password: "ECats"
 
   - name: "ProxyMama100mbps Server-5"
     type: socks5
-    server: 103.91.129.170
+    server: 103.91.128.110
     port: 6699
-    username: "Ecats"
-    password: "Ecats"
+    username: "ECats"
+    password: "ECats"
 
   - name: "ProxyMama100mbps Server-6"
     type: socks5
     server: 103.91.129.170
     port: 6699
-    username: "Ecats"
-    password: "Ecats"
+    username: "ECats"
+    password: "ECats"
 
   - name: "ProxyMama100 Server-7"
     type: socks5
