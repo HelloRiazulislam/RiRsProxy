@@ -1,104 +1,104 @@
 proxies:
-  - name: "⚡ ProxyMama - S01"
+  - name: "ProxyMama - S01"
     type: http
     server: 121.200.61.221
     port: 6565
 
-  - name: "⚡ ProxyMama - S02"
+  - name: "ProxyMama - S02"
     type: socks5
     server: 103.186.238.1
     port: 9169
     username: "true"
     password: "true"
 
-  - name: "⚡ ProxyMama - S03"
+  - name: "ProxyMama - S03"
     type: http
     server: 121.200.63.205
     port: 8742
 
-  - name: "⚡ ProxyMama - S04"
+  - name: "ProxyMama - S04"
     type: socks5
     server: 115.127.156.158
     port: 6699
     username: ECats
     password: ECats
 
-  - name: "⚡ ProxyMama - S05"
+  - name: "ProxyMama - S05"
     type: socks5
     server: 103.91.128.110
     port: 6699
     username: ECats
     password: ECats
 
-  - name: "⚡ ProxyMama - S06"
+  - name: "ProxyMama - S06"
     type: socks5
     server: 103.91.129.170
     port: 6699
     username: ECats
     password: ECats
 
-  - name: "⚡ ProxyMama - S07"
+  - name: "ProxyMama - S07"
     type: socks5
     server: 203.76.220.168
     port: 1052
     username: "exrex"
     password: "exrex"
 
-  - name: "⚡ ProxyMama - S08"
+  - name: "ProxyMama - S08"
     type: http
     server: 45.115.112.138
     port: 7675
 
-  - name: "⚡ ProxyMama - S09"
+  - name: "ProxyMama - S09"
     type: socks5
     server: 5.bdixbypass.com
     port: 6969
     username: "@BDiX_BypassX"
     password: "@BDiX_BypassX"
 
-  - name: "⚡ ProxyMama - S10"
+  - name: "ProxyMama - S10"
     type: socks5
     server: 220.247.165.129
     port: 1088
     username: "test"
     password: "test"
 
-  - name: "⚡ ProxyMama - S11"
+  - name: "ProxyMama - S11"
     type: socks5
     server: 115.127.13.155
     port: 6699
     username: ECats
     password: ECats
 
-  - name: "⚡ ProxyMama - S12"
+  - name: "ProxyMama - S12"
     type: socks5
     server: 115.127.29.226
     port: 6699
     username: ECats
     password: ECats
 
-  - name: "⚡ ProxyMama - S13"
+  - name: "ProxyMama - S13"
     type: socks5
     server: 115.127.30.146
     port: 6699
     username: ECats
     password: ECats
 
-  - name: "⚡ ProxyMama - S14"
+  - name: "ProxyMama - S14"
     type: socks5
     server: 115.127.151.238
     port: 6699
     username: ECats
     password: ECats
 
-  - name: "⚡ ProxyMama - S15"
+  - name: "ProxyMama - S15"
     type: socks5
     server: 115.127.156.114
     port: 6699
     username: ECats
     password: ECats
 
-  - name: "⚡ ProxyMama - S16"
+  - name: "ProxyMama - S16"
     type: socks5
     server: 115.127.81.122
     port: 6699
