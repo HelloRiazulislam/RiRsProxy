@@ -1,4 +1,4 @@
-1proxies:
+proxies:
   - name: "ProxyMama50 Server-1"
     type: http
     server: 121.200.61.221
