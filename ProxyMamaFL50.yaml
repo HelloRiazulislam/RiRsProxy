@@ -1,8 +1,8 @@
-proxies:
+1proxies:
   - name: "ProxyMama50 Server-1"
     type: http
-    server: 202.40.178.165
-    port: 12761
+    server: 121.200.61.221
+    port: 6565
 
   - name: "ProxyMama50 Server-2"
     type: socks5
@@ -13,10 +13,10 @@ proxies:
 
   - name: "ProxyMama50 Server-3"
     type: socks5
-    server: 103.143.139.173
-    port: 6969
-    username: "@bdiix_bypass"
-    password: "@bdiix_bypass"
+    server: 103.197.48.126
+    port: 1088
+    username: "test"
+    password: "test"
 
   - name: "ProxyMama50 Server-4"
     type: socks5
