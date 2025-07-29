@@ -73,7 +73,7 @@ proxies:
   - name: "ProxyMama - S12"
     type: socks5
     server: 103.112.207.80
-    port: 1080
+    port: 1088
     username: Admintest
     password: Admintest
 
