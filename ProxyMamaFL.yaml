@@ -62,3 +62,36 @@ proxies:
     port: 1088
     username: "test"
     password: "test"
+
+  - name: "ProxyMama - S11"
+    type: socks5
+    server: 103.146.17.129
+    port: 1080
+    username: Admintest
+    password: Admintest
+
+  - name: "ProxyMama - S12"
+    type: socks5
+    server: 103.112.207.80
+    port: 1080
+    username: Admintest
+    password: Admintest
+
+  - name: "ProxyMama - S13"
+    type: socks5
+    server: 103.109.59.164
+    port: 1080
+    username: Admintest
+    password: Admintest
+
+  - name: "ProxyMama - S14"
+    type: socks5
+    server: 103.114.96.246
+    port: 1080
+    username: Admintest
+    password: Admintest
+
+  - name: "ProxyMama - S15"
+    type: http
+    server: 103.42.202.113
+    port: 8080
