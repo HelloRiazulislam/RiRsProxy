@@ -18,24 +18,24 @@ proxies:
 
   - name: "ProxyMama - S04"
     type: socks5
-    server: 115.127.156.158
-    port: 6699
-    username: ECats
-    password: ECats
+    server: 103.38.55.55
+    port: 1088
+    username: test
+    password: test
 
   - name: "ProxyMama - S05"
     type: socks5
-    server: 103.91.128.110
-    port: 6699
-    username: ECats
-    password: ECats
+    server: 103.166.253.94
+    port: 1088
+    username: test
+    password: test
 
   - name: "ProxyMama - S06"
     type: socks5
-    server: 103.91.129.170
-    port: 6699
-    username: ECats
-    password: ECats
+    server: 202.4.105.122
+    port: 1088
+    username: test
+    password: test
 
   - name: "ProxyMama - S07"
     type: socks5
