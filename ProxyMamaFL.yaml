@@ -51,10 +51,8 @@ proxies:
 
   - name: "ProxyMama - S09"
     type: socks5
-    server: 5.bdixbypass.com
-    port: 6969
-    username: "@BDiX_BypassX"
-    password: "@BDiX_BypassX"
+    server: 103.91.128.49
+    port: 11011
 
   - name: "ProxyMama - S10"
     type: socks5
@@ -65,24 +63,20 @@ proxies:
 
   - name: "ProxyMama - S11"
     type: socks5
-    server: 103.146.17.129
-    port: 1080
-    username: Admintest
-    password: Admintest
+    server: 103.91.128.110
+    port: 11011
 
   - name: "ProxyMama - S12"
     type: socks5
-    server: 103.112.207.80
-    port: 1088
-    username: Admintest
-    password: Admintest
+    server: 103.91.128.241
+    port: 11011
 
   - name: "ProxyMama - S13"
     type: socks5
-    server: 103.109.59.164
-    port: 1080
-    username: Admintest
-    password: Admintest
+    server: 123.253.37.110
+    port: 6699
+    username: 3xp
+    password: 3xp
 
   - name: "ProxyMama - S14"
     type: socks5
@@ -92,6 +86,8 @@ proxies:
     password: Admintest
 
   - name: "ProxyMama - S15"
-    type: http
-    server: 103.42.202.113
-    port: 8080
+    type: socks5
+    server: 103.91.128.58
+    port: 11011
+    username: Feline
+    password: Feline
