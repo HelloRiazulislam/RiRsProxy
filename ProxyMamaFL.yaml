@@ -16,26 +16,27 @@ proxies:
     server: 121.200.63.205
     port: 8742
 
+  # 🔄 Replaced S04 with new proxy
   - name: "ProxyMama - S04"
     type: socks5
-    server: 103.38.55.55
-    port: 1088
-    username: test
-    password: test
+    server: 103.69.151.213
+    port: 7626
+    username: "ProxyMama"
+    password: "ProxyMama"
 
   - name: "ProxyMama - S05"
     type: socks5
     server: 103.166.253.94
     port: 1088
-    username: test
-    password: test
+    username: "test"
+    password: "test"
 
   - name: "ProxyMama - S06"
     type: socks5
     server: 202.4.105.122
     port: 1088
-    username: test
-    password: test
+    username: "test"
+    password: "test"
 
   - name: "ProxyMama - S07"
     type: socks5
@@ -63,31 +64,31 @@ proxies:
 
   - name: "ProxyMama - S11"
     type: socks5
-    server: 103.91.128.110
-    port: 11011
+    server: 123.253.37.110
+    port: 6699
+    username: "3xp"
+    password: "3xp"
 
   - name: "ProxyMama - S12"
     type: socks5
-    server: 103.91.128.241
+    server: 123.253.37.196
     port: 11011
 
   - name: "ProxyMama - S13"
     type: socks5
     server: 123.253.37.110
     port: 6699
-    username: 3xp
-    password: 3xp
+    username: "3xp"
+    password: "3xp"
 
   - name: "ProxyMama - S14"
     type: socks5
     server: 103.114.96.246
     port: 1080
-    username: Admintest
-    password: Admintest
+    username: "Admintest"
+    password: "Admintest"
 
   - name: "ProxyMama - S15"
     type: socks5
-    server: 103.91.128.58
+    server: 103.91.128.149
     port: 11011
-    username: Feline
-    password: Feline
