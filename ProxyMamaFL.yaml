@@ -16,7 +16,6 @@ proxies:
     server: 121.200.63.205
     port: 8742
 
-  # 🔄 Replaced S04 with new proxy
   - name: "ProxyMama - S04"
     type: socks5
     server: 103.69.151.213
@@ -24,12 +23,11 @@ proxies:
     username: "ProxyMama"
     password: "ProxyMama"
 
+  # 🔄 Removed old S05, replaced with new HTTP proxy
   - name: "ProxyMama - S05"
-    type: socks5
-    server: 103.166.253.94
-    port: 1088
-    username: "test"
-    password: "test"
+    type: http
+    server: 160.187.190.3
+    port: 8080
 
   - name: "ProxyMama - S06"
     type: socks5
@@ -50,9 +48,10 @@ proxies:
     server: 45.115.112.138
     port: 7675
 
+  # 🔄 Removed old S09, replaced with new HTTP proxy
   - name: "ProxyMama - S09"
-    type: socks5
-    server: 103.91.128.49
+    type: http
+    server: 103.243.238.187
     port: 11011
 
   - name: "ProxyMama - S10"
