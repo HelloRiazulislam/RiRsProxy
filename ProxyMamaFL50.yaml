@@ -1,46 +1,7 @@
 proxies:
-  - name: "ProxyMama50 Server-1"
-    type: http
-    server: 121.200.61.221
-    port: 6565
-
-  - name: "ProxyMama50 Server-2"
+  - name: "Paused for a while. if you have validity Please inbox."
     type: socks5
-    server: 103.186.238.1
-    port: 9169
-    username: "true"
-    password: "true"
-
-  - name: "ProxyMama50 Server-3"
-    type: socks5
-    server: 103.197.48.126
-    port: 1088
-    username: "test"
-    password: "test"
-
-  - name: "ProxyMama50 Server-4"
-    type: socks5
-    server: 203.76.220.168
-    port: 1052
-    username: "exrex"
-    password: "exrex"
-
-  - name: "ProxyMama50 Server-5"
-    type: http
-    server: 45.115.112.138
-    port: 7675
-
-  - name: "ProxyMama50 Server-6"
-    type: socks5
-    server: 5.bdixbypass.com
-    port: 6969
-    username: "@BDiX_BypassX"
-    password: "@BDiX_BypassX"
-    udp: true
-
-  - name: "ProxyMama50 Server-7"
-    type: socks5
-    server: 220.247.165.129
-    port: 1088
-    username: "test"
-    password: "test"
+    server: 103.61.132.21
+    port: 1066
+    username: Admin
+    password: test
