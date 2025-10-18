@@ -1,6 +1,6 @@
 - name: "Validity Expired"
     type: socks5
-    server: 103.186.238.1
+    server: 103.146.253.12
     port: 9169
     username: "true"
     password: "true"
