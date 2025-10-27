@@ -1,81 +1,105 @@
 proxies:
-  - name: "🌐 ProxyMama-01"
+  - name: "ProxyMama - S01"
     type: http
-    server: 113.11.126.170
-    port: 9107
+    server: 121.200.61.221
+    port: 6565
 
-  - name: "🌐 ProxyMama-02"
-    type: http
-    server: 113.11.126.6
-    port: 8443
+  - name: "ProxyMama - S02"
+    type: socks5
+    server: 103.186.238.1
+    port: 9169
+    username: "true"
+    password: "true"
 
-  - name: "🌐 ProxyMama-03"
+  - name: "ProxyMama - S03"
     type: http
-    server: 113.11.3.122
-    port: 8443
+    server: 121.200.63.205
+    port: 8742
 
-  - name: "🌐 ProxyMama-04"
-    type: http
-    server: 113.11.3.182
-    port: 16289
+  - name: "ProxyMama - S04"
+    type: socks5
+    server: 103.69.151.213
+    port: 7626
+    username: "ProxyMama"
+    password: "ProxyMama"
 
-  - name: "🌐 ProxyMama-05"
-    type: http
-    server: 113.11.3.126
-    port: 9107
+  # 🔄 Replaced S05 with new SOCKS5 proxy
+  - name: "ProxyMama - S05"
+    type: socks5
+    server: 103.38.55.55
+    port: 1088
+    username: "test"
+    password: "test"
 
-  - name: "🌐 ProxyMama-06"
-    type: http
-    server: 113.11.3.82
-    port: 1628
+  - name: "ProxyMama - S06"
+    type: socks5
+    server: 202.4.105.122
+    port: 1088
+    username: "test"
+    password: "test"
 
-  - name: "🌐 ProxyMama-07"
-    type: http
-    server: 113.11.3.70
-    port: 1122
+  - name: "ProxyMama - S07"
+    type: socks5
+    server: 203.76.220.168
+    port: 1052
+    username: "exrex"
+    password: "exrex"
 
-  - name: "🌐 ProxyMama-08"
+  - name: "ProxyMama - S08"
     type: http
-    server: 113.11.3.74
-    port: 9797
+    server: 45.115.112.138
+    port: 7675
 
-  - name: "🌐 ProxyMama-09"
+  # 🔄 Replaced S09 earlier (kept unchanged)
+  - name: "ProxyMama - S09"
     type: http
-    server: 113.11.126.218
-    port: 8443
+    server: 103.243.238.187
+    port: 11011
 
-  - name: "🌐 ProxyMama-10"
-    type: http
-    server: 113.11.126.26
-    port: 8443
+  - name: "ProxyMama - S10"
+    type: socks5
+    server: 220.247.165.129
+    port: 1088
+    username: "test"
+    password: "test"
 
-  - name: "🌐 ProxyMama-11"
-    type: http
-    server: 113.11.126.142
-    port: 8443
+  # 🔄 Replaced S11
+  - name: "ProxyMama - S11"
+    type: socks5
+    server: 103.38.55.77
+    port: 1088
+    username: "test"
+    password: "test"
 
-  - name: "🌐 ProxyMama-12"
-    type: http
-    server: 113.11.126.14
-    port: 1628
+  # 🔄 Replaced S12
+  - name: "ProxyMama - S12"
+    type: socks5
+    server: 103.123.169.243
+    port: 1088
+    username: "test"
+    password: "test"
 
-  - name: "🌐 ProxyMama-13"
-    type: http
-    server: 113.11.126.22
-    port: 1628
+  # 🔄 Replaced S13
+  - name: "ProxyMama - S13"
+    type: socks5
+    server: 103.166.253.92
+    port: 1088
+    username: "test"
+    password: "test"
 
-  - name: "🌐 ProxyMama-14"
-    type: http
-    server: 113.11.126.30
-    port: 2333
+  - name: "ProxyMama - S14"
+    type: socks5
+    server: 103.114.96.246
+    port: 1080
+    username: "Admintest"
+    password: "Admintest"
 
-  - name: "🌐 ProxyMama-15"
-    type: http
-    server: 113.11.126.38
-    port: 36909
+  # 🔄 Replaced S15
+  - name: "ProxyMama - S15"
+    type: socks5
+    server: 103.166.253.93
+    port: 1088
+    username: "test"
+    password: "test"
 
-  - name: "🌐 ProxyMama-16"
-    type: http
-    server: 113.11.126.190
-    port: 8443
     
