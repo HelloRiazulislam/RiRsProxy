@@ -1,12 +1,7 @@
 proxies:
-  - name: "ProxyMama - S04"
+  - name: "Validity Expired"
     type: socks5
-    server: 103.69.151.213
+    server: 103.61.151.225
     port: 7626
     username: "ProxyMama"
     password: "ProxyMama"
-
-  - name: "ProxyMama - S09"
-    type: http
-    server: 103.243.238.187
-    port: 11011
