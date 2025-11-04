@@ -1,20 +1,21 @@
-- name: ⚡ ProxyMama-01
+proxies:
+  - name: ⚡ ProxyMama-01
     type: socks5
-    server: s9.proxymama.online
+    server: 103.139.253.104
     port: 7626
     username: rasel
     password: rasel
 
   - name: ⚡ ProxyMama-02
     type: socks5
-    server: s2.proxymama.online
+    server: 103.11.196.6
     port: 12522
     username: rasel
     password: rasel
 
   - name: ⚡ ProxyMama-03
     type: socks5
-    server: s8.proxymama.online
+    server: 103.38.55.69
     port: 7626
     username: rasel
     password: rasel
