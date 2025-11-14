@@ -3,20 +3,20 @@ proxies:
     type: socks5
     server: 103.139.253.104
     port: 7626
-    username: rasel
-    password: rasel
+    username: dipta
+    password: dipta
 
   - name: ⚡ ProxyMama-02
     type: socks5
     server: 103.11.196.6
     port: 12522
-    username: rasel
-    password: rasel
+    username: dipta
+    password: dipta
 
   - name: ⚡ ProxyMama-03
     type: socks5
     server: 103.38.55.69
     port: 7626
-    username: rasel
-    password: rasel
+    username: dipta
+    password: dipta
     
