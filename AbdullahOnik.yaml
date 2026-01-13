@@ -1,21 +1,7 @@
 proxies:
   - name: ⚡ ProxyMama-01
     type: socks5
-    server: 103.139.253.104
+    server: 103.134.211.104
     port: 7626
-    username: onik
-    password: onik
-
-  - name: ⚡ ProxyMama-02
-    type: socks5
-    server: 103.11.196.6
-    port: 12522
-    username: onik
-    password: onik
-
-  - name: ⚡ ProxyMama-03
-    type: socks5
-    server: 103.38.55.69
-    port: 7626
-    username: onik
-    password: onik
+    username: on
+    password: on
