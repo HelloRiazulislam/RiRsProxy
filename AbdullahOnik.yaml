@@ -1,5 +1,5 @@
 proxies:
-  - name: ⚡ ProxyMama-01
+  - name: ⚡ Validity Expired
     type: socks5
     server: 103.134.211.104
     port: 7626
