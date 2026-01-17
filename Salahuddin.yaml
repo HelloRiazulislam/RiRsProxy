@@ -8,8 +8,8 @@ proxies:
 
   - name: ⚡ ProxyMama-02
     type: socks5
-    server: 103.11.196.6
-    port: 12522
+    server: 103.198.133.105
+    port: 7626
     username: mamun
     password: mamun
 
