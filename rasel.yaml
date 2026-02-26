@@ -22,7 +22,7 @@ proxies:
   - name: "⚡ ProxyMama - 05"
     type: http
     server: 103.167.17.234
-    port: 2026
+    port: 2610
 
   - name: "⚡ ProxyMama - 06"
     type: http
