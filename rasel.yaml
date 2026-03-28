@@ -12,7 +12,7 @@ proxies:
   - name: "⚡ ProxyMama - 03"
     type: http
     server: 103.69.150.136
-    port: 2610
+    port: 4496
 
   - name: "⚡ ProxyMama - 04"
     type: http
