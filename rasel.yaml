@@ -11,8 +11,8 @@ proxies:
 
   - name: "⚡ ProxyMama - 03"
     type: http
-    server: 103.198.133.241
-    port: 2026
+    server: 103.69.150.136
+    port: 2610
 
   - name: "⚡ ProxyMama - 04"
     type: http
