@@ -1,29 +1,9 @@
 proxies:
-  - name: "⚡ ProxyMama - 01"
-    type: http
-    server: 180.149.235.24
-    port: 4436
-
   - name: "⚡ ProxyMama - 02"
     type: http
     server: 180.149.235.113
     port: 2026
-
-  - name: "⚡ ProxyMama - 03"
-    type: http
-    server: 103.69.150.136
-    port: 4496
-
-  - name: "⚡ ProxyMama - 04"
-    type: http
-    server: 103.167.17.214
-    port: 2026
-
-  - name: "⚡ ProxyMama - 05"
-    type: http
-    server: 103.167.17.234
-    port: 2610
-
+    
   - name: "⚡ ProxyMama - 06"
     type: http
     server: 114.130.99.200
