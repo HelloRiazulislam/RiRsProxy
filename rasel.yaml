@@ -2,9 +2,9 @@ proxies:
   - name: "⚡ ProxyMama - 02"
     type: http
     server: 180.149.235.113
-    port: 2026
+    port: 2610
     
   - name: "⚡ ProxyMama - 06"
     type: http
     server: 114.130.99.200
-    port: 2026
+    port: 2610
