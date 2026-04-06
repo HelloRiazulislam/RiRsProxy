@@ -6,5 +6,5 @@ proxies:
     
   - name: "⚡ ProxyMama - 06"
     type: http
-    server: 114.130.99.200
+    server: 114.130.160.102
     port: 2610
