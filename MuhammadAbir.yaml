@@ -1,15 +1,15 @@
 proxies:
   - name: ⚡ ProxyMama-01
     type: socks5
-    server: 103.139.253.104
-    port: 11311
+    server: 103.198.133.105
+    port: 4742
     username: mamun
     password: mamun
 
   - name: ⚡ ProxyMama-02
     type: socks5
     server: 103.198.133.105
-    port: 7626
+    port: 4742
     username: mamun
     password: mamun
 
