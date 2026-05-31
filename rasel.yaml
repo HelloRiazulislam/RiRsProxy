@@ -1,10 +1,10 @@
 proxies:
   - name: "⚡ ProxyMama - 01"
     type: http
-    server: 180.149.235.113
-    port: 2610
+    server: 103.76.44.33
+    port: 4391
     
   - name: "⚡ ProxyMama - 02"
     type: http
-    server: 103.167.17.214
+    server: 103.198.133.193
     port: 2610
