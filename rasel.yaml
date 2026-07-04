@@ -1,24 +1,15 @@
 proxies:
-  - name: "ProxyMama-01"
-    type: socks5
+  - name: "ProxyMama - 01"
+    type: http
     server: 103.115.242.200
-    port: 4742
-    username: rasel
-    password: rasel
-    udp: true
+    port: 2610
 
-  - name: "ProxyMama-02"
-    type: socks5
+  - name: "ProxyMama - 02"
+    type: http
     server: 103.115.242.129
-    port: 4742
-    username: rasel
-    password: rasel
-    udp: true
+    port: 2610
 
-  - name: "ProxyMama-03"
-    type: socks5
+  - name: "ProxyMama - 03"
+    type: http
     server: 114.130.99.200
-    port: 7626
-    username: rasel
-    password: rasel
-    udp: true
+    port: 2610
