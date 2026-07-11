@@ -6,7 +6,7 @@ proxies:
 
   - name: "ProxyMama - 02"
     type: http
-    server: 103.115.242.175
+    server: 103.167.17.212
     port: 2610
 
   - name: "ProxyMama - 03"
