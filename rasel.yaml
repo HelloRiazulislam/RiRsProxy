@@ -6,23 +6,9 @@ proxies:
     username: rasel
     password: rasel
 
-  - name: ProxyMama - 02
-    type: socks5
-    server: 103.198.132.33
-    port: 4742
-    username: rasel
-    password: rasel
-
   - name: ProxyMama - 03
     type: socks5
     server: 114.130.99.200
     port: 7626
-    username: rasel
-    password: rasel
-
-  - name: ProxyMama - 04
-    type: socks5
-    server: 103.69.151.189
-    port: 2610
     username: rasel
     password: rasel
