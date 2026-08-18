@@ -15,5 +15,5 @@
 
 - name: ProxyMama - 4
   type: http
-  server: 103.198.132.33
-  port: 7273
+  server: 103.109.96.22
+  port: 2610
