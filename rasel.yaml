@@ -1,14 +1,19 @@
-proxies:
-  - name: ProxyMama - 01
-    type: socks5
-    server: 180.149.235.208
-    port: 4742
-    username: rasel
-    password: rasel
+- name: ProxyMama - 1
+  type: http
+  server: 114.130.99.200
+  port: 2610
 
-  - name: ProxyMama - 03
-    type: socks5
-    server: 114.130.99.200
-    port: 7626
-    username: rasel
-    password: rasel
+- name: ProxyMama - 2
+  type: http
+  server: 103.69.151.189
+  port: 4742
+
+- name: ProxyMama - 3
+  type: http
+  server: 180.149.235.208
+  port: 7273
+
+- name: ProxyMama - 4
+  type: http
+  server: 103.198.132.33
+  port: 7273
