@@ -11,7 +11,7 @@
 - name: ProxyMama - 3
   type: http
   server: 180.149.235.208
-  port: 2610
+  port: 3030
 
 - name: ProxyMama - 4
   type: http
