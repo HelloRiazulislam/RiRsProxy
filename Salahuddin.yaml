@@ -1,5 +1,19 @@
-proxies:
-  - name: "Expired"
-    type: http
-    server: 103.115.222.200
-    port: 2612
+- name: ProxyMama - 1
+  type: http
+  server: 114.130.99.200
+  port: 2610
+
+- name: ProxyMama - 2
+  type: http
+  server: 103.69.151.189
+  port: 4742
+
+- name: ProxyMama - 3
+  type: http
+  server: 180.149.235.208
+  port: 3030
+
+- name: ProxyMama - 4
+  type: http
+  server: 103.109.96.22
+  port: 7273
