@@ -1,33 +1,5 @@
 proxies:
-  - name: ProxyMama - 1
+  - name: Disabled
     type: http
-    server: 114.130.99.200
-    port: 2610
-
-  - name: ProxyMama - 2
-    type: http
-    server: 103.69.151.189
-    port: 4742
-
-  - name: ProxyMama - 3
-    type: http
-    server: 103.167.17.248
-    port: 6547
-
-  - name: ProxyMama - 4
-    type: http
-    server: 103.109.96.22
-    port: 7273
-
-proxy-groups:
-  - name: ProxyMama LoadBalance
-    type: load-balance
-    strategy: round-robin
-    proxies:
-      - ProxyMama - 1
-      - ProxyMama - 2
-      - ProxyMama - 3
-      - ProxyMama - 4
-
-rules:
-  - MATCH,ProxyMama LoadBalance
+    server: 134.130.99.200
+    port: 2611
